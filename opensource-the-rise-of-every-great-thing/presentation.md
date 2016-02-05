@@ -1,7 +1,7 @@
 # Open Source.
 ## The Rise of Every Great Thing
 
-^ On Feburary 4th, 2004. Mark Zuckerberg along with his Harvard roomates  Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes changed the face of history
+^ On Feburary 4th, 2004. Mark Zuckerberg along with his Harvard classmates  Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes changed the face of history
 
 ---
 
@@ -24,7 +24,7 @@
 ![fit left](facebook-oss2.png)
 
 - Facebook is both a consumer of and contributor to free and open source software. 
-- Facebook's contributions include: HipHop for PHP, Fair scheduler in Apache Hadoop Apache Hive, Apache Cassandra, and the Open Compute Project
+- Facebook's contributions include: HipHop for PHP, Fair scheduler in Apache Hadoop Apache Hive, Apache Cassandra, React.js, and the Open Compute Project
 - Facebook also contributes to other opensource projects such as Oracle's MySQL database engine
 
 ^ Facebook is built in PHP which is compiled with HipHop for PHP, a 'source code transformer' built by Facebook engineers that turns PHP into C++.[169] The deployment of HipHop reportedly reduced average CPU consumption on Facebook servers by 50%
@@ -232,6 +232,8 @@ As of October 24, 2015, Docker has over 25,600 GitHub stars (making it the 20th 
 
 ![right](https://raw.githubusercontent.com/emccode/emccode.github.io/master/images/items/mesos-module-dvdi.png)
 
+^ The purposes of the module is to live on mesos agents to enable external storage to be created, mounted and unmounted with each task that is assigned to the agent. It leverages DVDCLI to enable any docker volume driver to be used without a docker container. It's a small part of the larger vision to deliver external storage and introduce cluster wide resource capabilities to the Mesos platform.
+
 ^ The next major release was 0.3 for mesos-module-dvdi. This was a big deal because this brings support for mesos volumes. so if you are using any framework with mesos such as hadoop, cassandra, or any other scheudlers, you can specify the native mesos containerization to bring volumes to the workload. Because previously we only supported the docker volume driver. We also adapted it versions 23, 24, 25, 26 which hopefully supports many of the wider spread versions being ran in the community. 
 
 
@@ -249,6 +251,11 @@ As of October 24, 2015, Docker has over 25,600 GitHub stars (making it the 20th 
 
 ---
 
+# DEMO!
+
+![](batman.gif)
+
+---
 # Find Us
 
 ## emccode.github.io
